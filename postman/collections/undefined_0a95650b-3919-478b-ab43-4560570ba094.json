@@ -1,0 +1,92 @@
+{
+    "owner": "545941",
+    "lastUpdatedBy": "545941",
+    "lastRevision": 74567572,
+    "team": null,
+    "id": "3e3054a5-0b49-4067-bff6-00c6dc83d8e0",
+    "name": "Commvault Rest API - Public",
+    "description": "Welcome\n-------------\nWelcome to Commvault's Rest APIs. You can explore our APIs in [Postman](https://getpostman.com) using the predefined requests we created\n\nThe current version of this documentation is on SP25. </br>\nYou can access LTS documentation here: </br>\n[_SP20_](https://documenter.getpostman.com/view/2046098/UVR7KoPJ)   </br>\n[_SP24_](https://documenter.getpostman.com/view/2046098/UVR7KoPL) </br>\n\nFor more V2 and V4 APIs, please visit your API Explorer page.\n[_More Details_](http://documentation.commvault.com/commvault/v11/article?p=107350_1.htm)\n\nSetup\n--------------\nTo get started, [create an environment in Postman](https://www.getpostman.com/docs/environments), select that environment, and set your environment variables by entering necessary values in the `0 - Setup/Environment Setup` pre-request script ([documentation on pre-request scripts](http://www.getpostman.com/docs/pre_request_scripts)).  Also, Some of our calls might have dependencies. `GET`/`PUT`/`DELETE` may only work after an item is created with a `POST`.\n\nThe same set of APIs can be used for both XML and JSON. If you want to get equivalent JSON for the XML, use our [API](https://api.commvault.com/#fe2fa795-dd7c-4416-857d-75704b52be8c) for conversion.\n\n<b>Note:</b> Swagger Documentation for V2/V4 APIs are present in the following URL:\n\t\t\t\t`{ServerURL}/sandbox/apiexplorer`\n\n[_More Details_](http://documentation.commvault.com/commvault/v11/article?p=45551.htm)",
+    "variables": null,
+    "auth": null,
+    "events": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ],
+                "id": "0abbcb5f-c79e-496a-b18e-e6dab86c8322"
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ],
+                "id": "3202b52d-63f6-43fb-845b-2c8da453fb39"
+            }
+        }
+    ],
+    "remote_id": "0",
+    "remoteLink": null,
+    "folders_order": [
+        "a655305a-7201-45aa-abf0-d3675c97455c",
+        "a2132ae4-bb46-436f-a2ef-572bbaaa1324",
+        "e01fb095-ff79-4bcd-b460-44eb0434fbd6",
+        "75657d53-ace8-464c-b893-4c8e8eb6ccde",
+        "59ad8246-7696-44f2-b4dd-30e6fe07e696",
+        "a431d51f-cd38-46b6-b9e1-3bee2471dc4e",
+        "4dc44123-df7a-44d8-bbf2-edc72355d14e",
+        "d3011a9e-67b9-4301-ae7b-95c21b5a7f21",
+        "430c7e90-72b1-41e5-bf96-ae9f8fb2225d",
+        "a1bc88b7-9c0d-400d-a4d9-a756a8005486",
+        "255d70cd-b8ca-4d50-b036-ecce5a6d4a54",
+        "c9beed89-3108-4d62-9bd4-49050bb2cef5",
+        "a24acf04-0f44-4b7e-af2b-865d335123d4",
+        "2c49da17-908b-4014-a5bf-63a6a2279a90",
+        "e29d4653-5b91-41d1-a639-3476d67d1063",
+        "a1ed6c5d-3833-4730-975a-203f5a25a981",
+        "cd5ed751-636d-495b-9e89-36634b69a517",
+        "6eb85a70-f902-47ef-a6d9-7d7f8a27cd74",
+        "28e80f63-8f3f-415e-ade2-5c24595686b1",
+        "5859af15-254e-49dc-96e3-889a241fa58b",
+        "06628df7-54da-45a1-bd6c-a51b47177ac1",
+        "69aaf79d-b6c6-418d-a0c2-82095fe33105",
+        "f3a9a76a-1c34-4068-8c93-2ff3f4d58bfb",
+        "8d208832-b0e1-49eb-87aa-bb647a66574a",
+        "11b01aea-1b80-4824-ba79-b180b6d87fc3",
+        "35ba44a0-10aa-4b39-b800-189fd7406438",
+        "aee3bcd0-dd07-417d-8e08-883b344a9e47",
+        "93c4f992-9005-4fff-a648-63958cd50683",
+        "8f0a921f-31ac-4d77-a1ad-0423d634cc38",
+        "145b9caa-ea33-4348-901c-93be315f81a7",
+        "eafacc4d-7afe-4e19-807a-de8e6952b40a",
+        "c9201258-e6f4-4ace-a9a7-2865d152dcae",
+        "11624079-a0d7-4f86-92bf-09f29cf77f07",
+        "e460a1e0-c69a-4c01-b8f0-aed3ab21a5a7",
+        "d94e0e44-11ef-4cb6-8ec1-e94d18c6e14b",
+        "f06886c1-e8ae-488e-a257-e4ab603d76b5",
+        "2175cc42-f572-445f-bc31-c422ca15f32d",
+        "65b21525-4861-45a8-8973-54da38e237ce",
+        "827313b0-e689-4dfa-9dd7-ec462bd011b4",
+        "551b71f4-78dc-40cd-8013-e8310072dbb9",
+        "8a89ff77-a81c-402d-b530-24158105affc",
+        "077713ad-2670-4066-8e59-6bc2dbbd1918",
+        "ef090a89-190d-4a47-be85-95f80108edae",
+        "d7080f32-9ea2-4259-a4cc-c0f1a6122031",
+        "52a0ee93-560c-4aa5-a2ee-aecf2e9e67b6",
+        "929fcc18-8ba8-4394-b651-2dd6419c3f95",
+        "4b3f1059-334f-4423-9635-8362bcafe6ea",
+        "17285125-7dba-4df0-a49c-616ffd288ad1",
+        "59d70500-b0de-4da1-890a-3133b977e871",
+        "7a2d96eb-f94e-4733-92a3-67f50a7a4002",
+        "820cbb7d-9c30-449a-869e-8a553780bab2",
+        "c5f3a64e-5258-49be-93ec-5da3f37af63f"
+    ],
+    "order": [],
+    "createdAt": "2022-01-06T12:36:36.000Z",
+    "updatedAt": "2022-01-06T12:37:25.000Z"
+}
