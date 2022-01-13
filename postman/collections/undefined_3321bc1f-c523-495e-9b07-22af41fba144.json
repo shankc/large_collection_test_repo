@@ -1,0 +1,41 @@
+{
+    "owner": "545941",
+    "lastUpdatedBy": "545941",
+    "lastRevision": 74741401,
+    "team": null,
+    "id": "45ca01e2-c5d7-4f3e-9c4f-273d7c6dee72",
+    "name": "simple test",
+    "description": null,
+    "variables": [
+        {
+            "id": "06cab248-68f2-4efd-a7c7-a06270d912fd",
+            "key": "baseUrl",
+            "value": "localhost:3000",
+            "type": "string"
+        }
+    ],
+    "auth": {
+        "type": "basic",
+        "basic": [
+            {
+                "key": "username",
+                "value": "<Basic Auth Username>",
+                "type": "string"
+            },
+            {
+                "key": "password",
+                "value": "<Basic Auth Password>",
+                "type": "string"
+            }
+        ]
+    },
+    "events": [],
+    "remote_id": "0",
+    "remoteLink": null,
+    "folders_order": [],
+    "order": [
+        "a96a558f-3d12-47ab-b162-e513670657e3"
+    ],
+    "createdAt": "2022-01-13T05:43:17.000Z",
+    "updatedAt": "2022-01-13T05:43:18.000Z"
+}
